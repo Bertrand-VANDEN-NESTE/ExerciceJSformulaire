@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="icon" type="image/png" href="Capture_d_écran_2022-03-02_à_11.12.25-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form name="myForm" id="submit">
+            <p>Bienvenue</p>
+            <div>
+                <div>
+                    <label for="name">Nom</label>
+                </div>
+                <div>
+                    <input class="inputClass" type="text" id="name" name="user_name">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                </div>
+                <div>
+                    <input class="inputClass" type="text" id="prénom" name="user_prenom">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="user_id">Nom d'utilisateur</label>
+                </div>
+                <div>
+                    <input class="inputClass" type="text" id="user_id" name="user_id">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="dob">Date de naissance</label>
+                </div>
+                <div>
+                    <input class="inputClass" type="date" id="dob" name="user_dob">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="email">E-mail</label>
+                </div>
+                <div>
+                    <input class="inputClass" type="email" id="email" name="user_email">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="mdp">Mot de passe</label>
+                </div>
+                <div>
+                    <input class="inputClass password_1" type="password" id="mp" name="user_mdp">
+                    <input type="checkbox" id="btn">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label for="conf_mdp">Confirmation du mot de passe</label>
+                </div>
+                <div>
+                    <input class="inputClass password_2" type="password" id="mdp" name="user_mdp_confirm">
+                    <input type="checkbox" id="btn1">
+                </div>
+            </div>
+            <div>
+                <span class="errors" id="error"></span>
+            </div>
+            <div>
+                <button type="submit">Valider</button>
+            </div>
+        </form>
+    </div>
+    <div class="drop drop-1"></div>
+    <div class="drop drop-2"></div>
+    <div class="drop drop-3"></div>
+    <div class="drop drop-4"></div>
+    <div class="drop drop-5"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
