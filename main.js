@@ -25,14 +25,14 @@ const isWordsRefuses = (name) => {
 const btn = document.querySelector('#btn');
 const inputPass = document.querySelector('#mp');
 btn.addEventListener('click', () => {
-    inputPass.type = inputPass.type === 'password' ? 'text' : 'password';
+    inputPass.type === 'password' ? 'text' : 'password';
 });
 
 // fonction pour afficher le mot de passe  de confirmation
 const btn1 = document.querySelector('#btn1');
 const inputPass1 = document.querySelector('#mdp');
 btn1.addEventListener('click', () => {
-    inputPass1.type = inputPass1.type === 'password' ? 'text' : 'password';
+    inputPass1.type === 'password' ? 'text' : 'password';
 });
 
 // conditions pour le nom en fonction
